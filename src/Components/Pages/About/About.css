@@ -1,0 +1,90 @@
+/* Add these styles to your stylesheet */
+.cards-team {
+  border: 2px solid #fff;
+  overflow: hidden;
+  transition: border 0.3s ease;
+  position: relative; /* Added position relative */
+}
+
+.cards-team img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Added border-radius to make it circular */
+  transition: filter 0.3s ease; /* Added transition for filter property */
+}
+
+.cards-team:hover {
+  cursor: pointer;
+}
+
+.cards-team:hover img {
+  filter: brightness(70%); /* Adjust brightness as needed */
+}
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0; /* Initially hide the social icons */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+.cards-team:hover .social-icons {
+  opacity: 1;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #eaff00be; /* Change color on hover as needed */
+}
+/* our story */
+
+@media (min-width: 1001px) {
+  .img-col {
+    position: absolute;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img-col {
+    width: 100%;
+  }
+}
+
+.img-col {
+  z-index: 1;
+  right: -5%;
+  top: 10%;
+}
+.text-col {
+  right: 1%;
+}
+.img-col img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover !important;
+}
+.about-h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--font-secondary);
+}
+.about-h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-secondary);
+}
+.about-h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #838893;
+}

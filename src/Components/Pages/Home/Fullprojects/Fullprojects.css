@@ -1,0 +1,63 @@
+#project-one {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+    url("../../Img/Arlindishpk/Projectone/arlindi-bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.project-one-post {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  color: aliceblue;
+}
+
+.button-project {
+  border: none;
+  font-size: 20px;
+}
+
+.project-one-post h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.project-one-post h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button-project {
+  color: #fff;
+}
+
+.button-project:hover {
+  background-color: #c48d0d;
+  color: #fff;
+}
+.project-header-carousel img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+}
+.go-home-button {
+  color: #feb900 !important;
+
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+.go-home-button:hover {
+  color: #c48d0d !important;
+}
+.text-phone a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+}
+.text-phone a:hover {
+  color: #feb900;
+}
