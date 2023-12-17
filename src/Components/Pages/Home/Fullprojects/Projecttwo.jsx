@@ -61,12 +61,12 @@ function ProjectTwo() {
       <Container className="project-one-post h-100 text-center py-5">
         <Row className="py-5">
           <Col md={6} sm={12}>
-            <div className="project1-header text-whit text-start">
+            <div className="project1-header text-center text-start">
               <h1>“Përfundimi i punimeve...”</h1>
               <h4 className="py-3">
                 Përfundimi i punimeve në minisheshin e ri në qendrën e Ferizajt.
               </h4>
-              <button className="btn btn-warning button-project p-3 mt-3">
+              <button className="btn my-3 button-project">
                 <FontAwesomeIcon icon={faShareSquare} />
                 Share
               </button>

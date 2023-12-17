@@ -6,8 +6,6 @@
 }
 
 .project-one-post {
-  display: grid;
-  align-items: center;
   height: 100%;
   color: aliceblue;
 }
@@ -29,6 +27,8 @@
 
 .button-project {
   color: #fff;
+  padding: 10px 20px;
+  background-color: #feb900;
 }
 
 .button-project:hover {
@@ -60,4 +60,12 @@
 }
 .text-phone a:hover {
   color: #feb900;
+}
+
+@media screen and (max-width: 600px) {
+  .button-project {
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #feb900;
+  }
 }

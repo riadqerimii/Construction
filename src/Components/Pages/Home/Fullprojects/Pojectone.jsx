@@ -60,9 +60,9 @@ function ProjectOne() {
       </Container>
 
       <Container className="project-one-post h-100 text-center py-5">
-        <Row className="py-5">
-          <Col md={4} lg={6}>
-            <div className="project1-header text-whit text-start">
+        <Row className="py-5 text-center">
+          <Col md={12} lg={6}>
+            <div className="project1-header text-center text-start">
               <h1>Projekti ne Progres</h1>
               <h4 className="py-3">
                 Me kartën e gjelbër të qeverisjes sonë, ferizajasit do të kenë
@@ -71,7 +71,7 @@ function ProjectOne() {
                 tashmë kemi nisur për zgjerimin e Parkut të Lirisë📍🍀 masivit
                 të gjelbër që paraqet vlerë të jashtëzakonshme të Ferizajt.
               </h4>
-              <button className="btn btn-warning button-project p-3 mt-3">
+              <button className="btn my-3 button-project">
                 <FontAwesomeIcon icon={faShareSquare} />
                 Share
               </button>
