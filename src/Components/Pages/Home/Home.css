@@ -103,6 +103,15 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 994px) {
+  .button-started {
+    padding: 8px 20px;
+    border: 2px solid #feb900;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+  }
+}
 /* services */
 
 .section-services {

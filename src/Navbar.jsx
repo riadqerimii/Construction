@@ -16,9 +16,9 @@ export default function Navbar() {
         />
         <BootstrapNavbar.Collapse
           id="basic-navbar-nav"
-          className="custom-navbar-collapse"
+          className="custom-navbar-collapse "
         >
-          <Nav className="ms-auto">
+          <Nav className="ms-auto div-navbar">
             <Nav.Link className="nav-bar" as={Link} to="/">
               Home
             </Nav.Link>

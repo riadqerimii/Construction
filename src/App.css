@@ -36,7 +36,27 @@
 .nav-bar:hover {
   color: #ffc732 !important;
 }
-
+@media screen and (max-width: 994px) {
+  .custom-toggler {
+    border: none;
+    color: #fff !important;
+    background-color: #fff;
+  }
+  .div-navbar {
+    width: 100%;
+    background-color: #000000ab;
+    color: #fff;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1.2rem 0;
+  }
+  .nav-bar {
+    justify-content: center;
+    padding: 20px;
+  }
+}
 /*  */
 .alt-services .img-bg {
   background-size: cover;
